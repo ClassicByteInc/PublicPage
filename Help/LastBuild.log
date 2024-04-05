@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2024.2.18.0" projectFile="C:\Users\huang\source\repos\ClassicByteStandardLibraryDoc\ClassicByteStandardLibraryDoc.shfbproj" started="2024/4/5 14:39:07">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2024.2.18.0" projectFile="C:\Users\huang\source\repos\ClassicByteStandardLibraryDoc\ClassicByteStandardLibraryDoc.shfbproj" started="2024/4/5 15:12:04">
 <buildStep step="Initializing">
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
 Locating components in the following folder(s):
@@ -36,22 +36,26 @@ References to include:
     System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL
     System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL
     System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL
-SHFB: Warning BE0062: No documentation source XML comments files found.  The help file will not contain any member comments.
+
+Copying XML comments files
+    C:\Users\huang\.ClassicByte\Workspace\C#\ClassicByte.Application.Toolkit\ClassicByte.Application.Toolkit\bin\Debug\ClassicByte.Application.Toolkit.xml -&gt; C:\Users\huang\.ClassicByte\Workspace\PublicPage\Help\Working\ClassicByte.Application.Toolkit.xml
+    C:\Users\huang\.ClassicByte\Workspace\Standard\ClassicByte.Library.Standard\ClassicByte.Library.Util\bin\Debug\ClassicByte.Library.Util.xml -&gt; C:\Users\huang\.ClassicByte\Workspace\PublicPage\Help\Working\ClassicByte.Library.Util.xml
+    C:\Users\huang\.ClassicByte\Workspace\Standard\ClassicByte.Library.Standard\ClassicByte.Library.Standard\bin\Debug\ClassicByte.Library.Standard.xml -&gt; C:\Users\huang\.ClassicByte\Workspace\PublicPage\Help\Working\ClassicByte.Library.Standard.xml
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (zh-CN, 中文(简体，中国))...
-    Last step completed in 00:00:00.0050
+    Last step completed in 00:00:00.0090
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0095
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
-[D:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-2f29c8a1-c58c-487c-b934-98619d738f53.proj]
-生成启动时间为 2024/4/5 14:39:09。
+[D:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-7802b089-f310-4361-a060-38589c901be5.proj]
+生成启动时间为 2024/4/5 15:12:06。
 
-节点 1 上的项目“C:\Users\huang\.ClassicByte\Workspace\PublicPage\Help\Working\GenerateRefInfo-2f29c8a1-c58c-487c-b934-98619d738f53.proj”(默认目标)。
+节点 1 上的项目“C:\Users\huang\.ClassicByte\Workspace\PublicPage\Help\Working\GenerateRefInfo-7802b089-f310-4361-a060-38589c901be5.proj”(默认目标)。
 PrepareForBuild:
   正在创建目录“obj\Debug\”。
 GenerateRefInfo:
@@ -62,33 +66,33 @@ GenerateRefInfo:
   Wrote information on 4 namespaces, 20 types, and 81 members
   Merging duplicate type and member information
   Merged 0 duplicate type(s) and 0 duplicate member(s)
-已完成生成项目“C:\Users\huang\.ClassicByte\Workspace\PublicPage\Help\Working\GenerateRefInfo-2f29c8a1-c58c-487c-b934-98619d738f53.proj”(默认目标)的操作。
-    Last step completed in 00:00:02.1773
+已完成生成项目“C:\Users\huang\.ClassicByte\Workspace\PublicPage\Help\Working\GenerateRefInfo-7802b089-f310-4361-a060-38589c901be5.proj”(默认目标)的操作。
+    Last step completed in 00:00:01.7281
 </buildStep>
 <buildStep step="ApplyDocumentModel">
 Applying document model to reflection output...
-    Last step completed in 00:00:00.3967
+    Last step completed in 00:00:00.4869
 </buildStep>
 <buildStep step="AddApiTopicFilenames">
 Adding topic filenames to API members...
     Unique name M_ClassicByte_Library_Util_Functions_AESDecryptString_1 generated for M:ClassicByte.Library.Util.Functions.AESDecryptString(System.String,System.String,System.String)
     Unique name M_ClassicByte_Library_Util_Functions_AESEncryptedString_1 generated for M:ClassicByte.Library.Util.Functions.AESEncryptedString(System.String,System.String,System.String)
     Unique name M_ClassicByte_Library_Util_MailManager_SendEmail_1 generated for M:ClassicByte.Library.Util.MailManager.SendEmail(System.String,System.String,System.String,System.String,System.String)
-    Last step completed in 00:00:00.2629
+    Last step completed in 00:00:00.3493
 </buildStep>
 <buildStep step="GenerateApiTopicManifest">
 Generating API topic manifest...
-    Last step completed in 00:00:00.2731
+    Last step completed in 00:00:00.1202
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.2395
+    Last step completed in 00:00:00.1966
 </buildStep>
 <buildStep step="GenerateInheritedDocumentation">
 Generating inherited documentation...
 [D:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateInheritedDocs.proj]
 
-    Last step completed in 00:00:00.6215
+    Last step completed in 00:00:00.5546
 </buildStep>
 <buildStep step="CopyConceptualContent">
 Copying conceptual content...
@@ -102,36 +106,36 @@ Generating conceptual topic files
     C:\Users\huang\source\repos\ClassicByteStandardLibraryDoc\Content\VersionHistory\VersionHistory.aml -&gt; C:\Users\huang\.ClassicByte\Workspace\PublicPage\Help\Working\ddueXml\e5a6a351-883a-46eb-a25e-a590ea088d25.xml
     Parsing topic file &#39;C:\Users\huang\source\repos\ClassicByteStandardLibraryDoc\Content\VersionHistory\v1.0.0.0.aml&#39;
     C:\Users\huang\source\repos\ClassicByteStandardLibraryDoc\Content\VersionHistory\v1.0.0.0.aml -&gt; C:\Users\huang\.ClassicByte\Workspace\PublicPage\Help\Working\ddueXml\5bc102e4-dc0a-4698-8e25-c4d7010d763e.xml
-    Last step completed in 00:00:00.0281
+    Last step completed in 00:00:00.0612
 </buildStep>
 <buildStep step="CreateConceptualTopicConfigs">
 Creating conceptual topic configuration files...
     Companion files
     _ContentMetadata_.xml
     Merging topic IDs into reference topic manifest file
-    Last step completed in 00:00:00.0075
+    Last step completed in 00:00:00.0185
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 C:\Users\huang\source\repos\ClassicByteStandardLibraryDoc\icons\Help.png -&gt; C:\Users\huang\.ClassicByte\Workspace\PublicPage\Help\Working\Output\Website\icons\Help.png
-    Last step completed in 00:00:00.0050
+    Last step completed in 00:00:00.0070
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0065
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file for API content...
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.2068
+    Last step completed in 00:00:00.2123
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
-    Last step completed in 00:00:00.2047
+    Last step completed in 00:00:00.2849
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0051
+    Last step completed in 00:00:00.0353
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -139,7 +143,7 @@ C:\Users\huang\.ClassicByte\Workspace\PublicPage\Help\Working\BuildAssembler.con
   Updating reference topic configurations.
   Updating conceptual topic configurations.
     Removing unused ExampleComponent.
-    Last step completed in 00:00:00.0040
+    Last step completed in 00:00:00.0368
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
@@ -154,24 +158,9 @@ SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Application.Toolkit.M
 SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Application.Toolkit.SystemInfoView] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Application.Toolkit.TranslatorForm] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [N:ClassicByte.Library.Standard] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Library.Standard.Application] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Standard.Application._thisLogFilePath] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Standard.Application.AppData] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Standard.Application.Exit(ClassicByte.Library.Standard.Application.ExitCode,System.String)] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Standard.Application.Exit(ClassicByte.Library.Standard.Application.ExitCode,System.String)] Missing &lt;param name=&quot;exitCode&quot;/&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Standard.Application.Exit(ClassicByte.Library.Standard.Application.ExitCode,System.String)] Missing &lt;param name=&quot;message&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Standard.Application.GetStartTime] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Standard.Application.GetStartTime] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Standard.Application.LogPath] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Standard.Application.Print(System.String,ClassicByte.Library.Util.Functions.PrintMode)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Standard.Application.Print(System.String,ClassicByte.Library.Util.Functions.PrintMode)] Missing &lt;param name=&quot;text&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Standard.Application.Print(System.String,ClassicByte.Library.Util.Functions.PrintMode)] Missing &lt;param name=&quot;printMode&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Standard.Application.ProjectTemp] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Standard.Application.ProjectWorkspace] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Standard.Application.Temp] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Standard.Application.Workspace] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Library.Standard.Application.ExitCode] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Library.Standard.IApplication] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Standard.IApplication.ProjectTemp] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Standard.IApplication.ProjectWorkspace] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [N:ClassicByte.Library.Util] Missing &lt;summary&gt; documentation
@@ -180,64 +169,16 @@ SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.AboutBox
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.AboutBox.ShowAboutBox(System.String)] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.AboutBox.ShowAboutBox(System.String)] Missing &lt;param name=&quot;pros&quot;/&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Library.Util.ApiLibrary] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.ApiLibrary.GetIpInfo(System.String)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.ApiLibrary.GetIpInfo(System.String)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.ApiLibrary.GetIpInfo(System.String)] Missing &lt;param name=&quot;ip&quot;/&gt; documentation
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ClassicByte.Library.Util.ApiLibrary.GetIpInfo(System.String)] Unknown reference link target &#39;T:Newtonsoft.Json.Linq.JObject&#39;.
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.ApiLibrary.GetLocalWeather] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.ApiLibrary.GetLocalWeather] Missing &lt;returns&gt; documentation
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ClassicByte.Library.Util.ApiLibrary.GetLocalWeather] Unknown reference link target &#39;T:Newtonsoft.Json.Linq.JObject&#39;.
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.ApiLibrary.GetWeather(System.String)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.ApiLibrary.GetWeather(System.String)] Missing &lt;returns&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.ApiLibrary.GetWeather(System.String)] Missing &lt;param name=&quot;city&quot;/&gt; documentation
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ClassicByte.Library.Util.ApiLibrary.GetWeather(System.String)] Unknown reference link target &#39;T:Newtonsoft.Json.Linq.JObject&#39;.
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.ApiLibrary.TranslatorText(System.String)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.ApiLibrary.TranslatorText(System.String)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.ApiLibrary.TranslatorText(System.String)] Missing &lt;param name=&quot;sourceText&quot;/&gt; documentation
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ClassicByte.Library.Util.ApiLibrary.TranslatorText(System.String)] Unknown reference link target &#39;T:Newtonsoft.Json.Linq.JObject&#39;.
 SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Library.Util.DebugForm] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Library.Util.Functions] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.AESDecryptString(System.String,System.String)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.AESDecryptString(System.String,System.String)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.AESDecryptString(System.String,System.String)] Missing &lt;param name=&quot;decryptStr&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.AESDecryptString(System.String,System.String)] Missing &lt;param name=&quot;key&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.AESDecryptString(System.String,System.String,System.String)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.AESDecryptString(System.String,System.String,System.String)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.AESDecryptString(System.String,System.String,System.String)] Missing &lt;param name=&quot;decryptStr&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.AESDecryptString(System.String,System.String,System.String)] Missing &lt;param name=&quot;key&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.AESDecryptString(System.String,System.String,System.String)] Missing &lt;param name=&quot;vector&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.AESEncryptedString(System.String,System.String)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.AESEncryptedString(System.String,System.String)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.AESEncryptedString(System.String,System.String)] Missing &lt;param name=&quot;encrypteStr&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.AESEncryptedString(System.String,System.String)] Missing &lt;param name=&quot;key&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.AESEncryptedString(System.String,System.String,System.String)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.AESEncryptedString(System.String,System.String,System.String)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.AESEncryptedString(System.String,System.String,System.String)] Missing &lt;param name=&quot;encrypteStr&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.AESEncryptedString(System.String,System.String,System.String)] Missing &lt;param name=&quot;key&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.AESEncryptedString(System.String,System.String,System.String)] Missing &lt;param name=&quot;vector&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.ConsolePrint(System.String,System.String,ClassicByte.Library.Util.Functions.PrintMode)] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.ConsolePrint(System.String,System.String,ClassicByte.Library.Util.Functions.PrintMode)] Missing &lt;param name=&quot;logPath&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.ConsolePrint(System.String,System.String,ClassicByte.Library.Util.Functions.PrintMode)] Missing &lt;param name=&quot;text&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.ConsolePrint(System.String,System.String,ClassicByte.Library.Util.Functions.PrintMode)] Missing &lt;param name=&quot;printMode&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.DeBase64(System.String)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.DeBase64(System.String)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.DeBase64(System.String)] Missing &lt;param name=&quot;target&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.DownloadFile(System.String,System.String)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.DownloadFile(System.String,System.String)] Missing &lt;param name=&quot;res&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.DownloadFile(System.String,System.String)] Missing &lt;param name=&quot;path&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.Logger(System.String,System.String)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.Logger(System.String,System.String)] Missing &lt;param name=&quot;text&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.Logger(System.String,System.String)] Missing &lt;param name=&quot;logPath&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.ToBase64(System.String)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.ToBase64(System.String)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.ToBase64(System.String)] Missing &lt;param name=&quot;target&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Library.Util.Functions.PrintMode] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Library.Util.MailManager] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.MailManager.SendEmail(System.String,System.String,System.String,System.String)] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.MailManager.SendEmail(System.String,System.String,System.String,System.String)] Missing &lt;returns&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.MailManager.SendEmail(System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;target_user&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.MailManager.SendEmail(System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;title&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.MailManager.SendEmail(System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;content&quot;/&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.MailManager.SendEmail(System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;att_path&quot;/&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.MailManager.SendEmail(System.String,System.String,System.String,System.String,System.String)] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.MailManager.SendEmail(System.String,System.String,System.String,System.String,System.String)] Missing &lt;returns&gt; documentation
@@ -248,11 +189,7 @@ SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.MailMana
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.MailManager.SendEmail(System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;att_path&quot;/&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Library.Util.PackFile] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Library.Util.StationShell] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.StationShell.Command] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.StationShell.CommandParser(System.String)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.StationShell.CommandParser(System.String)] Missing &lt;param name=&quot;command&quot;/&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.StationShell.HelpString] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.StationShell.print(System.String)] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.StationShell.print(System.String)] Missing &lt;param name=&quot;s&quot;/&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.StationShell.Reset] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.StationShell.VersionInfo] Missing &lt;summary&gt; documentation
@@ -269,21 +206,15 @@ SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.SystemIn
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.SystemInfoManager.GetGPUInfo] Missing &lt;returns&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.SystemInfoManager.GetRAMInfo] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.SystemInfoManager.GetRAMInfo] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.SystemInfoManager.IsOSPlatform] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.SystemInfoManager.OSArchitecture] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.SystemInfoManager.OSDescription] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [N:ClassicByte.Library.Util.QQ] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Library.Util.QQ.QQInfoManager] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.QQ.QQInfoManager.GetQQIcon(System.String,ClassicByte.Library.Util.QQ.QQInfoManager.IconSize)] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.QQ.QQInfoManager.GetQQIcon(System.String,ClassicByte.Library.Util.QQ.QQInfoManager.IconSize)] Missing &lt;returns&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.QQ.QQInfoManager.GetQQIcon(System.String,ClassicByte.Library.Util.QQ.QQInfoManager.IconSize)] Missing &lt;param name=&quot;QQNumber&quot;/&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.QQ.QQInfoManager.GetQQIcon(System.String,ClassicByte.Library.Util.QQ.QQInfoManager.IconSize)] Missing &lt;param name=&quot;iconSize&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.QQ.QQInfoManager.GetQQInfoA(System.String)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.QQ.QQInfoManager.GetQQInfoA(System.String)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.QQ.QQInfoManager.GetQQInfoA(System.String)] Missing &lt;param name=&quot;QQNumber&quot;/&gt; documentation
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ClassicByte.Library.Util.QQ.QQInfoManager.GetQQInfoA(System.String)] Unknown reference link target &#39;T:Newtonsoft.Json.Linq.JObject&#39;.
 SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Library.Util.QQ.QQInfoManager.IconSize] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Library.Util.QQ.QQUser] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.QQ.QQUser.#ctor(System.String)] Missing &lt;param name=&quot;QQNumber&quot;/&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.QQ.QQUser.Age] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.QQ.QQUser.Level] Missing &lt;summary&gt; documentation
@@ -294,14 +225,14 @@ SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.QQ.QQUse
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.QQ.QQUser.ToString] Missing &lt;returns&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.QQ.QQUser.UserName] Missing &lt;summary&gt; documentation
 Processed 150 topic(s)
-146 warning(s)
+73 warning(s)
 CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
 ResolveArtLinksComponent: Copying media files...
 CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 3 of 15.
-CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 1 of 30.
+CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 3 of 30.
 <plugIn name="Website Table of Contents Generator" behavior="After" priority="1000">
 Generating TOC fragment files
-</plugIn>    Last step completed in 00:00:09.7409
+</plugIn>    Last step completed in 00:00:09.6739
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -337,26 +268,26 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Defaul
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.inc.php -&gt; C:\Users\huang\.ClassicByte\Workspace\PublicPage\Help\Working\Output\Website\SearchHelp.inc.php
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.php -&gt; C:\Users\huang\.ClassicByte\Workspace\PublicPage\Help\Working\Output\Website\SearchHelp.php
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\Web.Config -&gt; C:\Users\huang\.ClassicByte\Workspace\PublicPage\Help\Working\Output\Website\Web.Config
-    Last step completed in 00:00:00.2425
+    Last step completed in 00:00:00.1884
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:00.6819
+    Last step completed in 00:00:00.6135
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
-Copied 301 files for the website content
-    Last step completed in 00:00:00.5967
+Copied 335 files for the website content
+    Last step completed in 00:00:00.5021
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.1500
+    Last step completed in 00:00:00.1933
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 2024/4/5 14:39:24.  Total time: 00:00:17.2122
+Build completed successfully at 2024/4/5 15:12:21.  Total time: 00:00:17.4772
 
 </buildStep>
 </shfbBuild>
