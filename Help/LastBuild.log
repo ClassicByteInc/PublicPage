@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2024.2.18.0" projectFile="C:\Users\huang\source\repos\ClassicByteStandardLibraryDoc\ClassicByteStandardLibraryDoc.shfbproj" started="2024/4/5 15:12:04">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2024.2.18.0" projectFile="C:\Users\huang\source\repos\ClassicByteStandardLibraryDoc\ClassicByteStandardLibraryDoc.shfbproj" started="2024/4/5 15:36:55">
 <buildStep step="Initializing">
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
 Locating components in the following folder(s):
@@ -11,6 +11,9 @@ Using presentation style &#39;Default2022&#39; located in &#39;C:\Program Files 
 Loading and initializing plug-ins...
 Website Table of Contents Generator Version 2024.2.18.0
 Copyright &#169; 2006-2024, Eric Woodruff, All Rights Reserved
+</buildStep>
+<buildStep step="ClearWorkFolder">
+Clearing working folder...
 -------------------------------
 Clearing any prior web/markdown output...
 </buildStep>
@@ -44,18 +47,18 @@ Copying XML comments files
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (zh-CN, 中文(简体，中国))...
-    Last step completed in 00:00:00.0090
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0095
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
-[D:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-7802b089-f310-4361-a060-38589c901be5.proj]
-生成启动时间为 2024/4/5 15:12:06。
+[D:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-08856c35-81b6-4836-b923-b354c80cc2ab.proj]
+生成启动时间为 2024/4/5 15:36:57。
 
-节点 1 上的项目“C:\Users\huang\.ClassicByte\Workspace\PublicPage\Help\Working\GenerateRefInfo-7802b089-f310-4361-a060-38589c901be5.proj”(默认目标)。
+节点 1 上的项目“C:\Users\huang\.ClassicByte\Workspace\PublicPage\Help\Working\GenerateRefInfo-08856c35-81b6-4836-b923-b354c80cc2ab.proj”(默认目标)。
 PrepareForBuild:
   正在创建目录“obj\Debug\”。
 GenerateRefInfo:
@@ -63,36 +66,41 @@ GenerateRefInfo:
   &#169; Microsoft Corporation. All rights reserved.
   No source code context base path specified.  Source context information is unavailable.
   Loaded 3 assemblies for reflection and 8 dependency assemblies.
-  Wrote information on 4 namespaces, 20 types, and 81 members
+  Wrote information on 7 namespaces, 27 types, and 279 members
   Merging duplicate type and member information
-  Merged 0 duplicate type(s) and 0 duplicate member(s)
-已完成生成项目“C:\Users\huang\.ClassicByte\Workspace\PublicPage\Help\Working\GenerateRefInfo-7802b089-f310-4361-a060-38589c901be5.proj”(默认目标)的操作。
-    Last step completed in 00:00:01.7281
+  Merged 3 duplicate type(s) and 0 duplicate member(s)
+已完成生成项目“C:\Users\huang\.ClassicByte\Workspace\PublicPage\Help\Working\GenerateRefInfo-08856c35-81b6-4836-b923-b354c80cc2ab.proj”(默认目标)的操作。
+    Last step completed in 00:00:01.7205
 </buildStep>
 <buildStep step="ApplyDocumentModel">
 Applying document model to reflection output...
-    Last step completed in 00:00:00.4869
+    Last step completed in 00:00:00.5851
+</buildStep>
+<buildStep step="AddNamespaceGroups">
+Adding namespace group entries...
+Added 1 namespace group entries
+    Last step completed in 00:00:00.3233
 </buildStep>
 <buildStep step="AddApiTopicFilenames">
 Adding topic filenames to API members...
     Unique name M_ClassicByte_Library_Util_Functions_AESDecryptString_1 generated for M:ClassicByte.Library.Util.Functions.AESDecryptString(System.String,System.String,System.String)
     Unique name M_ClassicByte_Library_Util_Functions_AESEncryptedString_1 generated for M:ClassicByte.Library.Util.Functions.AESEncryptedString(System.String,System.String,System.String)
     Unique name M_ClassicByte_Library_Util_MailManager_SendEmail_1 generated for M:ClassicByte.Library.Util.MailManager.SendEmail(System.String,System.String,System.String,System.String,System.String)
-    Last step completed in 00:00:00.3493
+    Last step completed in 00:00:00.3892
 </buildStep>
 <buildStep step="GenerateApiTopicManifest">
 Generating API topic manifest...
-    Last step completed in 00:00:00.1202
+    Last step completed in 00:00:00.1704
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.1966
+    Last step completed in 00:00:00.4425
 </buildStep>
 <buildStep step="GenerateInheritedDocumentation">
 Generating inherited documentation...
 [D:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateInheritedDocs.proj]
 
-    Last step completed in 00:00:00.5546
+    Last step completed in 00:00:00.6948
 </buildStep>
 <buildStep step="CopyConceptualContent">
 Copying conceptual content...
@@ -106,36 +114,36 @@ Generating conceptual topic files
     C:\Users\huang\source\repos\ClassicByteStandardLibraryDoc\Content\VersionHistory\VersionHistory.aml -&gt; C:\Users\huang\.ClassicByte\Workspace\PublicPage\Help\Working\ddueXml\e5a6a351-883a-46eb-a25e-a590ea088d25.xml
     Parsing topic file &#39;C:\Users\huang\source\repos\ClassicByteStandardLibraryDoc\Content\VersionHistory\v1.0.0.0.aml&#39;
     C:\Users\huang\source\repos\ClassicByteStandardLibraryDoc\Content\VersionHistory\v1.0.0.0.aml -&gt; C:\Users\huang\.ClassicByte\Workspace\PublicPage\Help\Working\ddueXml\5bc102e4-dc0a-4698-8e25-c4d7010d763e.xml
-    Last step completed in 00:00:00.0612
+    Last step completed in 00:00:00.0215
 </buildStep>
 <buildStep step="CreateConceptualTopicConfigs">
 Creating conceptual topic configuration files...
     Companion files
     _ContentMetadata_.xml
     Merging topic IDs into reference topic manifest file
-    Last step completed in 00:00:00.0185
+    Last step completed in 00:00:00.0055
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 C:\Users\huang\source\repos\ClassicByteStandardLibraryDoc\icons\Help.png -&gt; C:\Users\huang\.ClassicByte\Workspace\PublicPage\Help\Working\Output\Website\icons\Help.png
-    Last step completed in 00:00:00.0070
+    Last step completed in 00:00:00.0040
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0065
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file for API content...
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.2123
+    Last step completed in 00:00:00.2479
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
-    Last step completed in 00:00:00.2849
+    Last step completed in 00:00:00.2079
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0353
+    Last step completed in 00:00:00.0035
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -143,7 +151,7 @@ C:\Users\huang\.ClassicByte\Workspace\PublicPage\Help\Working\BuildAssembler.con
   Updating reference topic configurations.
   Updating conceptual topic configurations.
     Removing unused ExampleComponent.
-    Last step completed in 00:00:00.0368
+    Last step completed in 00:00:00.0060
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
@@ -151,36 +159,504 @@ Building help topics...
 Loading TOC info and adding unique IDs to parent nodes
 </plugIn>Loading configuration...
 Processing topics...
+SHFB: Warning BE0066: ResolveConceptualLinksComponent: [c87f2989-4cea-41a4-ace7-a3bd1662539a] Unknown conceptual link target &#39;n_classicbyte_library_standard&#39;.
+SHFB: Warning BE0066: ResolveConceptualLinksComponent: [c87f2989-4cea-41a4-ace7-a3bd1662539a] Unknown conceptual link target &#39;n_classicbyte_library_util&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [T:&lt;Module&gt;] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:&lt;Module&gt;] Missing &lt;remarks&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [N:ClassicByte.Application.Toolkit] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Application.Toolkit.FileCodingForm] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Application.Toolkit.FileCodingForm] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.#ctor] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.FileCodingForm.button1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.FileCodingForm.button1] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.button1_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.button1_Click(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.button1_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.button1_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.FileCodingForm.button2] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.FileCodingForm.button2] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.button2_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.button2_Click(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.button2_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.button2_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.FileCodingForm.button3] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.FileCodingForm.button3] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.button3_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.button3_Click(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.button3_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.button3_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.FileCodingForm.button4] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.FileCodingForm.button4] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.button4_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.button4_Click(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.button4_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.button4_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.FileCodingForm.button5] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.FileCodingForm.button5] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.button5_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.button5_Click(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.button5_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.button5_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.FileCodingForm.button6] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.FileCodingForm.button6] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.button6_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.button6_Click(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.button6_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.button6_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.FileCodingForm.button7] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.FileCodingForm.button7] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.button7_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.button7_Click(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.button7_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.button7_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.FileCodingForm.CodeFilePath] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.FileCodingForm.CodeFilePath] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.CodeFilePath_TextChanged(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.CodeFilePath_TextChanged(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.CodeFilePath_TextChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.CodeFilePath_TextChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.FileCodingForm.CodeKey] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.FileCodingForm.CodeKey] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.FileCodingForm.components] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.Dispose(System.Boolean)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.FileCodingForm_Load(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.FileCodingForm_Load(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.FileCodingForm_Load(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.FileCodingForm_Load(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.FileCodingForm.filePath] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.FileCodingForm.filePath] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.InitializeComponent] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.FileCodingForm.label1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.FileCodingForm.label1] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.FileCodingForm.label2] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.FileCodingForm.label2] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.FileCodingForm.label3] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.FileCodingForm.label3] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.FileCodingForm.label4] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.FileCodingForm.label4] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.label4_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.label4_Click(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.label4_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.label4_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.FileCodingForm.openFileDialog1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.FileCodingForm.openFileDialog1] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.FileCodingForm.richTextBox1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.FileCodingForm.richTextBox1] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.richTextBox1_TextChanged(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.richTextBox1_TextChanged(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.richTextBox1_TextChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.FileCodingForm.richTextBox1_TextChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Application.Toolkit.IPView] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Application.Toolkit.IPView] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.IPView.#ctor] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.IPView.button1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.IPView.button1] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.IPView.button1_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.IPView.button1_Click(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.IPView.button1_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.IPView.button1_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.IPView.components] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.IPView.Dispose(System.Boolean)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.IPView.InitializeComponent] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.IPView.label1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.IPView.label1] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.IPView.richTextBox1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.IPView.richTextBox1] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.IPView.textBox1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.IPView.textBox1] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.IPView.textBox1_TextChanged(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.IPView.textBox1_TextChanged(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.IPView.textBox1_TextChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.IPView.textBox1_TextChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Application.Toolkit.MainForm] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Application.Toolkit.MainForm] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.#ctor] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.button1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.button1] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.button1_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.button1_Click(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.button1_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.button1_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.button2] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.button2] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.button2_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.button2_Click(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.button2_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.button2_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.button3] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.button3] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.button3_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.button3_Click(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.button3_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.button3_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.button4] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.button4] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.button4_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.button4_Click(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.button4_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.button4_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.CityName] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.CityName] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.CityNameWeather] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.CityNameWeather] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.components] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.contextMenuStrip1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.contextMenuStrip1] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.Dispose(System.Boolean)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.groupBox1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.groupBox1] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.iFileCodingForm] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.iFileCodingForm] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.InitializeComponent] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.iPView] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.iPView] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.iTranslatorForm] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.iTranslatorForm] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.label1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.label1] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.localW] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.localW] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:ClassicByte.Application.Toolkit.MainForm.localW] Unknown reference link target &#39;T:Newtonsoft.Json.Linq.JObject&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.MainForm_Load(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.MainForm_Load(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.MainForm_Load(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.MainForm_Load(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.menuStrip1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.menuStrip1] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.notifyIcon1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.notifyIcon1] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.notifyIcon1_MouseDoubleClick(System.Object,System.Windows.Forms.MouseEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.notifyIcon1_MouseDoubleClick(System.Object,System.Windows.Forms.MouseEventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.notifyIcon1_MouseDoubleClick(System.Object,System.Windows.Forms.MouseEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.notifyIcon1_MouseDoubleClick(System.Object,System.Windows.Forms.MouseEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.pictureBox1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.pictureBox1] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.pictureBox1_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.pictureBox1_Click(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.pictureBox1_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.pictureBox1_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.s] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.s] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.stationShellToolStripMenuItem] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.stationShellToolStripMenuItem] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.stationShellToolStripMenuItem_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.stationShellToolStripMenuItem_Click(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.stationShellToolStripMenuItem_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.stationShellToolStripMenuItem_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.TimeOut(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.TimeOut(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.TimeOut(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.TimeOut(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.TimeOutWatcher] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.TimeOutWatcher] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.toolStripStatusLabel1_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.toolStripStatusLabel1_Click(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.toolStripStatusLabel1_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.toolStripStatusLabel1_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.查看系统信息ToolStripMenuItem] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.查看系统信息ToolStripMenuItem] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.查看系统信息ToolStripMenuItem_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.查看系统信息ToolStripMenuItem_Click(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.查看系统信息ToolStripMenuItem_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.查看系统信息ToolStripMenuItem_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.打开日志文件夹ToolStripMenuItem] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.打开日志文件夹ToolStripMenuItem] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.打开日志文件夹ToolStripMenuItem_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.打开日志文件夹ToolStripMenuItem_Click(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.打开日志文件夹ToolStripMenuItem_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.打开日志文件夹ToolStripMenuItem_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.调试ToolStripMenuItem] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.调试ToolStripMenuItem] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.调试ToolStripMenuItem_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.调试ToolStripMenuItem_Click(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.调试ToolStripMenuItem_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.调试ToolStripMenuItem_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.关闭窗口ToolStripMenuItem] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.关闭窗口ToolStripMenuItem] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.关闭窗口ToolStripMenuItem_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.关闭窗口ToolStripMenuItem_Click(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.关闭窗口ToolStripMenuItem_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.关闭窗口ToolStripMenuItem_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.关于ToolStripMenuItem] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.关于ToolStripMenuItem] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.关于此项目ToolStripMenuItem] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.关于此项目ToolStripMenuItem] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.关于此项目ToolStripMenuItem_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.关于此项目ToolStripMenuItem_Click(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.关于此项目ToolStripMenuItem_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.关于此项目ToolStripMenuItem_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.关于我们ToolStripMenuItem] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.关于我们ToolStripMenuItem] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.关于我们ToolStripMenuItem_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.关于我们ToolStripMenuItem_Click(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.关于我们ToolStripMenuItem_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.关于我们ToolStripMenuItem_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.退出程序ToolStripMenuItem] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.MainForm.退出程序ToolStripMenuItem] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.退出程序ToolStripMenuItem_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.退出程序ToolStripMenuItem_Click(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.退出程序ToolStripMenuItem_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.MainForm.退出程序ToolStripMenuItem_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Application.Toolkit.Program] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Application.Toolkit.Program] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.Program.#ctor] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.Program.Main] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.Program.Main] Missing &lt;remarks&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Application.Toolkit.SystemInfoView] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Application.Toolkit.SystemInfoView] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.SystemInfoView.#ctor] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.SystemInfoView.components] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.SystemInfoView.Dispose(System.Boolean)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.SystemInfoView.InitializeComponent] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.SystemInfoView.richTextBox1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.SystemInfoView.richTextBox1] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.SystemInfoView.richTextBox1_TextChanged(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.SystemInfoView.richTextBox1_TextChanged(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.SystemInfoView.richTextBox1_TextChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.SystemInfoView.richTextBox1_TextChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Application.Toolkit.TranslatorForm] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Application.Toolkit.TranslatorForm] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.TranslatorForm.#ctor] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.TranslatorForm.button1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.TranslatorForm.button1] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.TranslatorForm.button1_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.TranslatorForm.button1_Click(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.TranslatorForm.button1_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.TranslatorForm.button1_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.TranslatorForm.components] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.TranslatorForm.Dispose(System.Boolean)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.TranslatorForm.InitializeComponent] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.TranslatorForm.label1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.TranslatorForm.label1] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.TranslatorForm.label1_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.TranslatorForm.label1_Click(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.TranslatorForm.label1_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.TranslatorForm.label1_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.TranslatorForm.label2] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.TranslatorForm.label2] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.TranslatorForm.Returns] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.TranslatorForm.Returns] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.TranslatorForm.TargetText] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Application.Toolkit.TranslatorForm.TargetText] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.TranslatorForm.TargetText_TextChanged(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.TranslatorForm.TargetText_TextChanged(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.TranslatorForm.TargetText_TextChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.TranslatorForm.TargetText_TextChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.TranslatorForm.TranslatorForm_Load(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.TranslatorForm.TranslatorForm_Load(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.TranslatorForm.TranslatorForm_Load(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Application.Toolkit.TranslatorForm.TranslatorForm_Load(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [N:ClassicByte.Library.Standard] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Library.Standard.Application] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Standard.Application.#ctor] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Standard.Application.#cctor] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Standard.Application._appData] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Standard.Application._appData] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Standard.Application._logPath] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Standard.Application._logPath] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Standard.Application._temp] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Standard.Application._temp] Missing &lt;remarks&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Standard.Application._thisLogFilePath] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Standard.Application._thisLogFilePath] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Standard.Application._thisProcessTime] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Standard.Application._thisProcessTime] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Standard.Application._workspace] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Standard.Application._workspace] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Standard.Application.AppData] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Standard.Application.AppData] Missing &lt;value&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Standard.Application.Exit(ClassicByte.Library.Standard.Application.ExitCode,System.String)] Missing &lt;remarks&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Standard.Application.Exit(ClassicByte.Library.Standard.Application.ExitCode,System.String)] Missing &lt;param name=&quot;exitCode&quot;/&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Standard.Application.Exit(ClassicByte.Library.Standard.Application.ExitCode,System.String)] Missing &lt;param name=&quot;message&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Standard.Application.GetStartTime] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Standard.Application.LogPath] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Standard.Application.LogPath] Missing &lt;value&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Standard.Application.Main] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Standard.Application.Main] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Standard.Application.Print(System.String,ClassicByte.Library.Util.Functions.PrintMode)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Standard.Application.ProjectTemp] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Standard.Application.ProjectTemp] Missing &lt;value&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Standard.Application.ProjectWorkspace] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Standard.Application.ProjectWorkspace] Missing &lt;value&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Standard.Application.Temp] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Standard.Application.Temp] Missing &lt;value&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Standard.Application.Workspace] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Standard.Application.Workspace] Missing &lt;value&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Library.Standard.Application.ExitCode] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Library.Standard.IApplication] Missing &lt;remarks&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Standard.IApplication.ProjectTemp] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Standard.IApplication.ProjectTemp] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Standard.IApplication.ProjectTemp] Missing &lt;value&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Standard.IApplication.ProjectWorkspace] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Standard.IApplication.ProjectWorkspace] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Standard.IApplication.ProjectWorkspace] Missing &lt;value&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:ClassicByte.Library.Standard.Properties] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Library.Standard.Properties.Resources] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Standard.Properties.Resources.#ctor] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Standard.Properties.Resources.classicbytefolders] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Standard.Properties.Resources.classicbytefolders] Missing &lt;value&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Standard.Properties.Resources.classicbytestationicon] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Standard.Properties.Resources.classicbytestationicon] Missing &lt;value&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Standard.Properties.Resources.Culture] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Standard.Properties.Resources.Culture] Missing &lt;value&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Standard.Properties.Resources.resourceCulture] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Standard.Properties.Resources.resourceCulture] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Standard.Properties.Resources.resourceMan] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Standard.Properties.Resources.resourceMan] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Standard.Properties.Resources.ResourceManager] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Standard.Properties.Resources.ResourceManager] Missing &lt;value&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [N:ClassicByte.Library.Util] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Library.Util.AboutBox] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Library.Util.AboutBox] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.AboutBox.#ctor(System.String)] Missing &lt;remarks&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.AboutBox.#ctor(System.String)] Missing &lt;param name=&quot;text&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.AboutBox.AboutBox_Load(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.AboutBox.AboutBox_Load(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.AboutBox.AboutBox_Load(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.AboutBox.AboutBox_Load(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.AboutBox.button1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.AboutBox.button1] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.AboutBox.button1_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.AboutBox.button1_Click(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.AboutBox.button1_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.AboutBox.button1_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.AboutBox.components] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.AboutBox.Dispose(System.Boolean)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.AboutBox.HasInstalled] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.AboutBox.HasInstalled] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.AboutBox.InitializeComponent] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.AboutBox.label1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.AboutBox.label1] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.AboutBox.label2] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.AboutBox.label2] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.AboutBox.label3] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.AboutBox.label3] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.AboutBox.label4] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.AboutBox.label4] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.AboutBox.label5] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.AboutBox.label5] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.AboutBox.linkLabel1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.AboutBox.linkLabel1] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.AboutBox.pictureBox1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.AboutBox.pictureBox1] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.AboutBox.pictureBox1_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.AboutBox.pictureBox1_Click(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.AboutBox.pictureBox1_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.AboutBox.pictureBox1_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.AboutBox.richTextBox1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.AboutBox.richTextBox1] Missing &lt;remarks&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.AboutBox.ShowAboutBox(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.AboutBox.ShowAboutBox(System.String)] Missing &lt;remarks&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.AboutBox.ShowAboutBox(System.String)] Missing &lt;param name=&quot;pros&quot;/&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Library.Util.ApiLibrary] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Library.Util.ApiLibrary] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.ApiLibrary.#ctor] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.ApiLibrary.#cctor] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.ApiLibrary._apiGetIpInfo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.ApiLibrary._apiGetIpInfo] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.ApiLibrary._apiGetWeather] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.ApiLibrary._apiGetWeather] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.ApiLibrary._apiLocalWeather] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.ApiLibrary._apiLocalWeather] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.ApiLibrary._apiQQTranslator] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.ApiLibrary._apiQQTranslator] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.ApiLibrary.d] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.ApiLibrary.d] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.ApiLibrary.GetIpInfo(System.String)] Missing &lt;remarks&gt; documentation
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ClassicByte.Library.Util.ApiLibrary.GetIpInfo(System.String)] Unknown reference link target &#39;T:Newtonsoft.Json.Linq.JObject&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.ApiLibrary.GetLocalWeather] Missing &lt;remarks&gt; documentation
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ClassicByte.Library.Util.ApiLibrary.GetLocalWeather] Unknown reference link target &#39;T:Newtonsoft.Json.Linq.JObject&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.ApiLibrary.GetWeather(System.String)] Missing &lt;remarks&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.ApiLibrary.GetWeather(System.String)] Missing &lt;param name=&quot;city&quot;/&gt; documentation
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ClassicByte.Library.Util.ApiLibrary.GetWeather(System.String)] Unknown reference link target &#39;T:Newtonsoft.Json.Linq.JObject&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.ApiLibrary.TranslatorText(System.String)] Missing &lt;remarks&gt; documentation
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ClassicByte.Library.Util.ApiLibrary.TranslatorText(System.String)] Unknown reference link target &#39;T:Newtonsoft.Json.Linq.JObject&#39;.
 SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Library.Util.DebugForm] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Library.Util.DebugForm] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.DebugForm.#ctor] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.DebugForm.Appdataf] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.DebugForm.Appdataf] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.DebugForm.components] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.DebugForm.Dispose(System.Boolean)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.DebugForm.InitializeComponent] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.DebugForm.label1_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.DebugForm.label1_Click(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.DebugForm.label1_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.DebugForm.label1_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.DebugForm.label2_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.DebugForm.label2_Click(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.DebugForm.label2_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.DebugForm.label2_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.DebugForm.label4_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.DebugForm.label4_Click(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.DebugForm.label4_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.DebugForm.label4_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.DebugForm.label5_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.DebugForm.label5_Click(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.DebugForm.label5_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.DebugForm.label5_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.DebugForm.label6_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.DebugForm.label6_Click(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.DebugForm.label6_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.DebugForm.label6_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.DebugForm.label7] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.DebugForm.label7] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.DebugForm.label7_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.DebugForm.label7_Click(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.DebugForm.label7_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.DebugForm.label7_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.DebugForm.label8_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.DebugForm.label8_Click(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.DebugForm.label8_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.DebugForm.label8_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.DebugForm.Logf] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.DebugForm.Logf] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.DebugForm.Pid] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.DebugForm.Pid] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.DebugForm.pMainForm] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.DebugForm.pMainForm] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.DebugForm.Tempf] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.DebugForm.Tempf] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.DebugForm.thisPath] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.DebugForm.thisPath] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Library.Util.Functions] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.AESDecryptString(System.String,System.String)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.AESDecryptString(System.String,System.String,System.String)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.AESEncryptedString(System.String,System.String)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.AESEncryptedString(System.String,System.String,System.String)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.ConsolePrint(System.String,System.String,ClassicByte.Library.Util.Functions.PrintMode)] Missing &lt;remarks&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.ConsolePrint(System.String,System.String,ClassicByte.Library.Util.Functions.PrintMode)] Missing &lt;param name=&quot;logPath&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.DeBase64(System.String)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.DownloadFile(System.String,System.String)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.Logger(System.String,System.String)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Functions.ToBase64(System.String)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Library.Util.Functions.PrintMode] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Library.Util.Library] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Library.#ctor] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.Library.Temp] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.Library.Temp] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.Library.Temp] Missing &lt;value&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Library.Util.MailManager] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Library.Util.MailManager] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.MailManager.#ctor] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.MailManager.#cctor] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.MailManager._codePwd] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.MailManager._codePwd] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.MailManager._codeSmtp] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.MailManager._codeSmtp] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.MailManager._codeUser] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.MailManager._codeUser] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.MailManager._pwd] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.MailManager._pwd] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.MailManager._smtpServer] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.MailManager._smtpServer] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.MailManager._userName] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.MailManager._userName] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.MailManager.SendEmail(System.String,System.String,System.String,System.String)] Missing &lt;remarks&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.MailManager.SendEmail(System.String,System.String,System.String,System.String)] Missing &lt;returns&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.MailManager.SendEmail(System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;target_user&quot;/&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.MailManager.SendEmail(System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;att_path&quot;/&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.MailManager.SendEmail(System.String,System.String,System.String,System.String,System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.MailManager.SendEmail(System.String,System.String,System.String,System.String,System.String)] Missing &lt;remarks&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.MailManager.SendEmail(System.String,System.String,System.String,System.String,System.String)] Missing &lt;returns&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.MailManager.SendEmail(System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;target_user&quot;/&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.MailManager.SendEmail(System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;title&quot;/&gt; documentation
@@ -188,51 +664,182 @@ SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.MailMana
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.MailManager.SendEmail(System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;cc_user&quot;/&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.MailManager.SendEmail(System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;att_path&quot;/&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Library.Util.PackFile] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Library.Util.PackFile] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.PackFile.#ctor] Missing &lt;remarks&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Library.Util.StationShell] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Library.Util.StationShell] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.StationShell.#ctor] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.StationShell.#cctor] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.StationShell._command] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.StationShell._command] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.StationShell._helpString] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.StationShell._helpString] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.StationShell._read] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.StationShell._read] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.StationShell.Command] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.StationShell.Command] Missing &lt;value&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.StationShell.CommandParser(System.String)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.StationShell.CommandString] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.StationShell.CommandString] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.StationShell.CommandString_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.StationShell.CommandString_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.StationShell.CommandString_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.StationShell.CommandString_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.StationShell.CommandString_KeyPress(System.Object,System.Windows.Forms.KeyPressEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.StationShell.CommandString_KeyPress(System.Object,System.Windows.Forms.KeyPressEventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.StationShell.CommandString_KeyPress(System.Object,System.Windows.Forms.KeyPressEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.StationShell.CommandString_KeyPress(System.Object,System.Windows.Forms.KeyPressEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.StationShell.CommandString_TextChanged(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.StationShell.CommandString_TextChanged(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.StationShell.CommandString_TextChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.StationShell.CommandString_TextChanged(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.StationShell.CommandString_Validated(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.StationShell.CommandString_Validated(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.StationShell.CommandString_Validated(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.StationShell.CommandString_Validated(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.StationShell.components] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.StationShell.Dispose(System.Boolean)] Missing &lt;remarks&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.StationShell.HelpString] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.StationShell.HelpString] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.StationShell.InitializeComponent] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.StationShell.menuStrip1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.StationShell.menuStrip1] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.StationShell.OutPut] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.StationShell.OutPut] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.StationShell.print(System.String)] Missing &lt;remarks&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.StationShell.print(System.String)] Missing &lt;param name=&quot;s&quot;/&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.StationShell.Reset] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.StationShell.Reset] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.StationShell.TimeOutWatcher_Tick(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.StationShell.TimeOutWatcher_Tick(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.StationShell.TimeOutWatcher_Tick(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.StationShell.TimeOutWatcher_Tick(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.StationShell.VersionInfo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.StationShell.VersionInfo] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.StationShell.关于StationShellToolStripMenuItem] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.StationShell.关于StationShellToolStripMenuItem] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.StationShell.关于StationShellToolStripMenuItem_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.StationShell.关于StationShellToolStripMenuItem_Click(System.Object,System.EventArgs)] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.StationShell.关于StationShellToolStripMenuItem_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.StationShell.关于StationShellToolStripMenuItem_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.StationShell.关于ToolStripMenuItem] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.StationShell.关于ToolStripMenuItem] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.StationShell.文件ToolStripMenuItem] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.StationShell.文件ToolStripMenuItem] Missing &lt;remarks&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Library.Util.SystemInfoManager] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Library.Util.SystemInfoManager] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.SystemInfoManager.#ctor] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.SystemInfoManager.#cctor] Missing &lt;remarks&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.SystemInfoManager.GetBaseBoardInfo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.SystemInfoManager.GetBaseBoardInfo] Missing &lt;remarks&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.SystemInfoManager.GetBaseBoardInfo] Missing &lt;returns&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.SystemInfoManager.GetComputerVersion] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.SystemInfoManager.GetComputerVersion] Missing &lt;remarks&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.SystemInfoManager.GetComputerVersion] Missing &lt;returns&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.SystemInfoManager.GetCPUInfo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.SystemInfoManager.GetCPUInfo] Missing &lt;remarks&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.SystemInfoManager.GetCPUInfo] Missing &lt;returns&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.SystemInfoManager.GetDiskInfo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.SystemInfoManager.GetDiskInfo] Missing &lt;remarks&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.SystemInfoManager.GetDiskInfo] Missing &lt;returns&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.SystemInfoManager.GetGPUInfo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.SystemInfoManager.GetGPUInfo] Missing &lt;remarks&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.SystemInfoManager.GetGPUInfo] Missing &lt;returns&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.SystemInfoManager.GetRAMInfo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.SystemInfoManager.GetRAMInfo] Missing &lt;remarks&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.SystemInfoManager.GetRAMInfo] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.SystemInfoManager.IsOSPlatform] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.SystemInfoManager.IsOSPlatform] Missing &lt;value&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.SystemInfoManager.OSArchitecture] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.SystemInfoManager.OSArchitecture] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.SystemInfoManager.OSArchitecture] Missing &lt;value&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.SystemInfoManager.OSDescription] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.SystemInfoManager.OSDescription] Missing &lt;value&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:ClassicByte.Library.Util.Properties] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Library.Util.Properties.Resources] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.Properties.Resources.#ctor] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.Properties.Resources.classicbyte_standardlibrary_logo] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.Properties.Resources.classicbyte_standardlibrary_logo] Missing &lt;value&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.Properties.Resources.classicbytefolders] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.Properties.Resources.classicbytefolders] Missing &lt;value&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.Properties.Resources.classicbytestationicon] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.Properties.Resources.classicbytestationicon] Missing &lt;value&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.Properties.Resources.Culture] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.Properties.Resources.Culture] Missing &lt;value&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.Properties.Resources.LAN_network] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.Properties.Resources.LAN_network] Missing &lt;value&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.Properties.Resources.LAN_network_failed] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.Properties.Resources.LAN_network_failed] Missing &lt;value&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.Properties.Resources.LICENSE] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.Properties.Resources.LICENSE] Missing &lt;value&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.Properties.Resources.resourceCulture] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.Properties.Resources.resourceCulture] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.Properties.Resources.resourceMan] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.Properties.Resources.resourceMan] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.Properties.Resources.ResourceManager] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.Properties.Resources.ResourceManager] Missing &lt;value&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.Properties.Resources.wifi_network] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.Properties.Resources.wifi_network] Missing &lt;value&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.Properties.Resources.wifi_network_failed] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.Properties.Resources.wifi_network_failed] Missing &lt;value&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [N:ClassicByte.Library.Util.QQ] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Library.Util.QQ.QQInfoManager] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Library.Util.QQ.QQInfoManager] Missing &lt;remarks&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.QQ.QQInfoManager.GetQQIcon(System.String,ClassicByte.Library.Util.QQ.QQInfoManager.IconSize)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.QQ.QQInfoManager.GetQQIcon(System.String,ClassicByte.Library.Util.QQ.QQInfoManager.IconSize)] Missing &lt;remarks&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.QQ.QQInfoManager.GetQQIcon(System.String,ClassicByte.Library.Util.QQ.QQInfoManager.IconSize)] Missing &lt;returns&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.QQ.QQInfoManager.GetQQIcon(System.String,ClassicByte.Library.Util.QQ.QQInfoManager.IconSize)] Missing &lt;param name=&quot;QQNumber&quot;/&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.QQ.QQInfoManager.GetQQIcon(System.String,ClassicByte.Library.Util.QQ.QQInfoManager.IconSize)] Missing &lt;param name=&quot;iconSize&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.QQ.QQInfoManager.GetQQInfoA(System.String)] Missing &lt;remarks&gt; documentation
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ClassicByte.Library.Util.QQ.QQInfoManager.GetQQInfoA(System.String)] Unknown reference link target &#39;T:Newtonsoft.Json.Linq.JObject&#39;.
 SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Library.Util.QQ.QQInfoManager.IconSize] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Library.Util.QQ.QQInfoManager.IconSize] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:ClassicByte.Library.Util.QQ.QQUser] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.QQ.QQUser.#ctor(System.String)] Missing &lt;remarks&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.QQ.QQUser.#ctor(System.String)] Missing &lt;param name=&quot;QQNumber&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.QQ.QQUser._age] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.QQ.QQUser._age] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.QQ.QQUser._level] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.QQ.QQUser._level] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.QQ.QQUser._number] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.QQ.QQUser._number] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.QQ.QQUser._qid] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.QQ.QQUser._qid] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.QQ.QQUser._sex] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.QQ.QQUser._sex] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.QQ.QQUser._userName] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:ClassicByte.Library.Util.QQ.QQUser._userName] Missing &lt;remarks&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.QQ.QQUser.Age] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.QQ.QQUser.Age] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.QQ.QQUser.Age] Missing &lt;value&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.QQ.QQUser.Level] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.QQ.QQUser.Level] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.QQ.QQUser.Level] Missing &lt;value&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.QQ.QQUser.Number] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.QQ.QQUser.Number] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.QQ.QQUser.Number] Missing &lt;value&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.QQ.QQUser.QID] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.QQ.QQUser.QID] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.QQ.QQUser.QID] Missing &lt;value&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.QQ.QQUser.Sex] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.QQ.QQUser.Sex] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.QQ.QQUser.Sex] Missing &lt;value&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.QQ.QQUser.ToString] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.QQ.QQUser.ToString] Missing &lt;remarks&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [M:ClassicByte.Library.Util.QQ.QQUser.ToString] Missing &lt;returns&gt; documentation
 SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.QQ.QQUser.UserName] Missing &lt;summary&gt; documentation
-Processed 150 topic(s)
-73 warning(s)
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.QQ.QQUser.UserName] Missing &lt;remarks&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:ClassicByte.Library.Util.QQ.QQUser.UserName] Missing &lt;value&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [G:ClassicByte.Library] Missing &lt;summary&gt; documentation
+Processed 377 topic(s)
+672 warning(s)
 CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
 ResolveArtLinksComponent: Copying media files...
-CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 3 of 15.
+CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 8 of 15.
 CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 3 of 30.
 <plugIn name="Website Table of Contents Generator" behavior="After" priority="1000">
 Generating TOC fragment files
-</plugIn>    Last step completed in 00:00:09.6739
+</plugIn>    Last step completed in 00:00:14.9448
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -268,26 +875,27 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Defaul
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.inc.php -&gt; C:\Users\huang\.ClassicByte\Workspace\PublicPage\Help\Working\Output\Website\SearchHelp.inc.php
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.php -&gt; C:\Users\huang\.ClassicByte\Workspace\PublicPage\Help\Working\Output\Website\SearchHelp.php
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\Web.Config -&gt; C:\Users\huang\.ClassicByte\Workspace\PublicPage\Help\Working\Output\Website\Web.Config
-    Last step completed in 00:00:00.1884
+    Last step completed in 00:00:00.2093
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:00.6135
+    Last step completed in 00:00:00.9799
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
-Copied 335 files for the website content
-    Last step completed in 00:00:00.5021
+Copied 500 files
+Copied 594 files for the website content
+    Last step completed in 00:00:00.7972
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.1933
+    Last step completed in 00:00:00.4006
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 2024/4/5 15:12:21.  Total time: 00:00:17.4772
+Build completed successfully at 2024/4/5 15:37:19.  Total time: 00:00:23.6224
 
 </buildStep>
 </shfbBuild>
